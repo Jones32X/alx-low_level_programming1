@@ -1,4 +1,4 @@
-#inculde <stdio.h>
+#include <stdio.h>
 /**
  * main - Program that uses the put function to print a line
  * Return: 0
