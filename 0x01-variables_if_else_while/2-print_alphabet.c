@@ -3,9 +3,11 @@
  * main - Entry point
  * Return: Always 0 (IT WORKED)
  */
+
 int main(void)
 {
 	char c
+
 	c = 'a'
 	while
 		(c <= 'z') {
