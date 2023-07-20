@@ -10,7 +10,7 @@ int main(void)
 {
 	long int i, j ,k, next;
 
-	j = i;
+	j = 1;
 
 	k = 2;
 
