@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long int i, j ,k, next;
+	long int i, j, k, next;
 
 	j = 1;
 
@@ -16,7 +16,7 @@ int main(void)
 
 	for (i = 1; i <= 50; ++i)
 	{
-		if(j != 20365011704)
+		if (j != 20365011704)
 		{
 			printf("%ld, ", j);
 		}
@@ -24,7 +24,7 @@ int main(void)
 		{
 			printf("%ld\n, ", j);
 		}
-		next = j +k;
+		next = j + k;
 		j = k;
 		k = next;
 	}
