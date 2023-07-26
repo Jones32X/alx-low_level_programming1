@@ -17,10 +17,10 @@ void print_rev(char *S)
 		S++;
 	}
 	S--;
-	for (o = longi; o > 0; 0--)
+	for (o = longi; o > 0; o--)
 	{
 		_putchar(*S);
-		S--;
+		iS--;
 	}
 	_putchar('\n');
 }
