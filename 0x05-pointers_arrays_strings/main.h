@@ -7,10 +7,10 @@
 int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
-int _strlen(char *s);
+int _strlen(char *S);
 void _puts(char *str);
-void print_rev(char *s);
-void rev_string(char *s);
+void print_rev(char *S);
+void rev_string(char *S);
 void puts2(char *str);
 void puts_half(char *str);
 void print_array(int *a, int n);
