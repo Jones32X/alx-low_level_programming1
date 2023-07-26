@@ -20,7 +20,7 @@ void print_rev(char *S)
 	for (o = longi; o > 0; 0--)
 	{
 		_putchar(*S);
-		s--;
+		S--;
 	}
 	_putchar('\n');
 }
