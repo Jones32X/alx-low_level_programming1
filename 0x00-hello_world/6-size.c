@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
- * main - Printing out the various comoputer types
+ * main - Printing out the various computer types
  * Return 0 (IT WAS SUCESSFUL)
  */
+
 int main(void)
 {
 	char x;
