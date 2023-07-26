@@ -3,7 +3,7 @@
 /**
  * print_rev - imprime em reversa
  * @S: String
- * return:0;
+ * return: 0;
  */
 
 void print_rev(char *S)
