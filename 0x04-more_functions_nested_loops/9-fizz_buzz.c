@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * main - prints the number from 1 - 100, but for only multuples of 3
@@ -32,3 +32,4 @@ int main(void)
 	printf("\n");
 
 	return (0);
+}
