@@ -3,7 +3,7 @@
 /**
  * main - finds and prints out the largest prime
  * factor of the number 612852475143
- * Return: 0M Always
+ * Return: 0 Always
  */
 
 int main(void)
@@ -16,17 +16,15 @@ int main(void)
 		{
 			prime /= 2;
 			continue;
-
-			for (divisor = 3; divisor < (prime / 2); divisor += 2)
-			{
-				if ((prime % divisor) == 0)
-					prime /= divisor;
-			}
 		}
-		
 
+		for (divisor = 3; divisor < (prime / 2); divisor += 2)
+		{
+			if ((prime % divisor) == 0)
+				prime /= divisor;
+		}
 	}
-	printf("%ld\n", prime);
+	printf("%ld", prime);
 
 	return (0);
 }
