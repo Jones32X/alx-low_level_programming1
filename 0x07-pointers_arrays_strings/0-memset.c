@@ -1,18 +1,21 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0/
+ * _memset - fills memory with a constant byte
+ * @s: memory area to be filled
+ * @b: char to copy
+ * @n: number of times t copy b
+ * Return: pointer to thre memory area s
  */
 
-int main(void)
+char *_memset(char *s, char b, unsigned int n)
 {
-	char *s = "hello, world";
-	char *f = "world";
-	char *t;
+	unsigned int i;
 
-	t = _strstr(s, f);
-	printf("%s\n", t);
-	return (0);
+	for (i = 0; i < n; i++)
+	{
+		s[i] = b;
+	}
+
+	return (s);
+}
