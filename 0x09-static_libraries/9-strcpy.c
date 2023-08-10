@@ -7,7 +7,7 @@
  * Return: value of string
  */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strcpy(char *dest, char *src)
 {
 	int n, o;
 
@@ -16,7 +16,7 @@ char *_strncpy(char *dest, char *src, int n)
 
 	while (*(src + n) != '\0')
 	{
-		n++
+		n++;
 	}
 	for ( ; o < n ; o++)
 	{
