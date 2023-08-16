@@ -4,8 +4,8 @@
 
 /**
  * main - check the code for ALX School students.
- * av: input array
- * ac: input array
+ * @ac: integer input value
+ * @av: an array of double pointers
  * Return: Always 0.
  */
 int main(int ac, char *av[])

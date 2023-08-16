@@ -12,7 +12,6 @@ char *argstostr(int ac, char **av)
 {
 	int k;
 	int m;
-	int s;
 	int t = 0, n = 0;
 
 	char *string;
